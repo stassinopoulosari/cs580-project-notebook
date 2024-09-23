@@ -33,3 +33,12 @@ a#nav-home {
     font-size: 200%;
     font-weight: bold;
 }
+
+a[disabled] {
+    pointer-events: none;
+    color: #ddd;
+}
+
+p.citation {
+    text-indent: 2em hanging;
+}
