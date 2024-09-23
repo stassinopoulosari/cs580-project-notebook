@@ -1,3 +1,4 @@
+<!-- Copied template for all other pages -->
 <!doctype html>
 <html lang="en">
     <head>
@@ -8,7 +9,11 @@
     </head>
     <body>
         <nav>
-            <a href="." id="nav-home">Off the Rails</a>
+            <a href="." id="nav-home"
+                ><img src="./icon/off-the-rails-icon.png" /><span
+                    >Off&nbsp;the&nbsp;Rails</span
+                ></a
+            >
             <a href=".">Proposal</a>
             <a href="./lowfi" disabled
                 >Low-Fidelity Prototype &amp; Test Plan</a
@@ -18,5 +23,179 @@
             <a href="./beta" disabled>Beta System</a>
             <a href="./presentation" disabled>Presentation</a>
         </nav>
+        <!-- End Copied template for all other pages -->
+
+        <div class="container">
+            <h1>Proposal</h1>
+            <h2>Short Summary</h2>
+            <p>
+                We will create a prototype for a mobile application and widget
+                that provides information about travel options that are proximal
+                to the user. Our most immediate goal is to have this work within
+                the Portland metro area. This will better enable users to
+                leverage sustainable transportation options.
+            </p>
+            <p>
+                We believe we can impact this goal with our project by
+                increasing productivity and encouraging greater use of
+                sustainable transportation options. This can be achieved by
+                increasing the efficiency of existing technologies and
+                transportation options. Users can be better enabled to utilize
+                efficient transportation and feel empowered to do so.
+            </p>
+            <p>
+                Ideal concept would be a widget that quickly connects a user to
+                their destination in the quickest, least expensive and most
+                environmentally sustainable manner. This could be connecting a
+                series of transportation types and options which could chain
+                together to maximize efficiency and minimize impact.
+            </p>
+
+            <h2>Observing Users</h2>
+            <p>
+                At various times, multiple people were observed using TriMet
+                MAX. They generally used the mobile wallet tap-to-pay
+                functionality to board and experienced long wait times between
+                trains. Passengers carried a variety of items, including
+                backpacks, purses, personal transportation devices, and even
+                overnight luggage. Many individuals brought bikes, strollers, or
+                wheelchairs and other assistive devices, facilitating smooth
+                transitions between MAX and bus services. Similarly, TriMet
+                buses saw numerous riders managing a range of items akin to
+                those seen on MAX.
+            </p>
+            <p>
+                Additionally, bicycles were a common mode of commuting,
+                alongside cars, which offered freedom and flexibility but could
+                be costly and inefficient unless carpooling. Ride-sharing
+                services like Uber and Lyft also appeared as commuting options,
+                though they shared similar drawbacks in terms of expense and
+                efficiency without carpooling.
+            </p>
+            <p>
+                We also observed alternative forms of transportation,
+                highlighting a strong association with safety and weather
+                considerations. This included manual and e-bikes, manual and
+                e-scooters, and various one-wheeled electric devices—but it also
+                included heavier forms like motorcycles and mopeds.
+            </p>
+            <h2>Identifying the Problem</h2>
+            <p>
+                In order for people to feel empowered to leverage sustainable
+                transportation options, it must be efficient and effective.
+                Unfortunately, some of the more sustainable transportation
+                options are not efficient. This disproportionately impacts the
+                poor who are most likely to be negatively impacted by delays
+                related to public transportation. They are also least likely to
+                be able to afford the most advanced sustainable transportation
+                options. The current state is a frustrating maze of varying
+                applications and pay mechanisms. Some transportation options may
+                also not be immediately obvious or available to all individuals.
+            </p>
+            <h2>Developing Personas</h2>
+            <p>We developed four personas, which we have linked below:</p>
+            <ol>
+                <li><a href="personas/persona-1.pdf">Persona 1</a></li>
+                <li><a href="personas/persona-2.pdf">Persona 2</a></li>
+                <li><a href="personas/persona-3.pdf">Persona 3</a></li>
+                <li><a href="personas/persona-4.pdf">Persona 4</a></li>
+            </ol>
+            <h2>Finding Related Products</h2>
+            <p>
+                The main two related products we explored were the Transit app
+                and Google Maps.
+            </p>
+            <p>
+                The Transit app provides live transit data and encourages its
+                users to provide information about their bus or train ride by
+                “gamifying” the experience and awarding cooperative users with
+                points that can place them on a monthly leaderboard. It also
+                provides bicycling data, but it will only suggest bicycling if
+                no transit routes are available and does not take weather into
+                account.
+            </p>
+            <p>
+                Google Maps prioritizes driving over all other methods of
+                transportation. Its bicycling data also does not take weather
+                into account and its transit data is not as user-friendly as the
+                Transit app. Live bus locations and headways are hidden in a
+                submenu in both the app and website.
+            </p>
+            <p>
+                Both of these products also default to requiring a route be
+                actively input by the user, rather than using their commute at
+                all times. Apple Maps, for instance, suggests commuting options
+                over entering a route when location data indicates you are at
+                home or at work. It suffers from the same limitations as Google
+                Maps, however.
+            </p>
+            <h2>Comparing Products</h2>
+            <p>
+                Our solution will encourage users to use active or public
+                transportation over private cars and ride-sharing. It will
+                combine the useful bicycle data of the Transit app with weather
+                data to suggest taking public transportation on a rainy day or
+                biking on a sunny day. It will also be a specifically
+                commute-focused app which always has directions and the most
+                optimal commuting option available.
+            </p>
+            <h2>
+                Designing at a High-Level Architecture of the Proposed System
+            </h2>
+            <p>
+                The system will consist of a mobile app and a home screen widget
+                for mobile devices. The mobile app will be used to configure a
+                user’s commute, while the best commuting option will remain
+                displayed to the user in the widget.
+            </p>
+            <h2>Justifying Feasibility</h2>
+            <p>
+                Weeks 1–2: We will begin by establishing the key features of our
+                project and drafting the initial design for the website and its
+                connected features.
+            </p>
+            <p>
+                Weeks 3–6: This phase will involve constructing and coding the
+                project, applying an iterative process to develop the basic
+                functions, architecture, and artifacts. This will likely be the
+                most intensive part of our sprint, requiring close collaboration
+                to refine key concepts and assess what features can
+                realistically be achieved within the semester. During this time,
+                we will also assemble surveys and start aggregating responses.
+                We may utilize Python and the OpenAI API to generate concise
+                directions for navigation, as outlined in our ideas addendum.
+                Ari, with experience in iOS and Android app development as well
+                as website creation using GitHub Pages, will lead development
+                efforts, while Travis will focus on enhancing his core
+                programming skills. He brings experience in R, Python, and SQL,
+                which will allow him to contribute to coding tasks and assist in
+                generating visuals using AI-assisted image tools. Additionally,
+                we plan to leverage ChatGPT for coding assistance to accelerate
+                our progress and simplify the learning of essential components.
+            </p>
+            <p>
+                Weeks 7–8: In this stage, we will test and iterate on our
+                initial versions, ensuring that they closely resemble the final
+                presentation. We will confirm the structure for our class
+                demonstration and identify any viable features to add, while
+                removing unnecessary ones. We will also create and organize
+                survey feedback, evaluating and analyzing the responses to
+                inform our updates.
+            </p>
+            <p>
+                Weeks 9–10: The final weeks will be dedicated to finalizing key
+                components of the project in preparation for our presentation.
+                We will incorporate and address the feedback received throughout
+                the process and outline future revisions and next steps,
+                establishing a vision for the project's future.
+            </p>
+            <p>
+                Throughout all phases of the project, we will document our code,
+                ensure that we continuously iterate to ensure our product and
+                strategy are in line with the wants and needs of our users, and
+                we will remain open to removing or reforming features which may
+                not work for the small scale of this course.
+            </p>
+        </div>
     </body>
 </html>

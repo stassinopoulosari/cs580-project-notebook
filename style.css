@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-
+* {
+    box-sizing: border-box;
+}
 html,
 body {
     position: absolute;
@@ -8,7 +10,6 @@ body {
     right: 0;
     bottom: 0;
     overflow-x: hidden;
-    overflow-y: scroll;
     font-family: "Fira Sans";
 }
 
@@ -32,6 +33,14 @@ nav a:hover {
 a#nav-home {
     font-size: 200%;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+a#nav-home img {
+    display: inline-block;
+    max-height: 2em;
+    margin-right: 0.75em;
+    border: 3px solid #000;
 }
 
 a[disabled] {
@@ -39,6 +48,61 @@ a[disabled] {
     color: #ddd;
 }
 
+h2 {
+    margin-bottom: 0;
+    margin-top: 1.5em;
+}
+
+p:first-child {
+    margin-top: 0;
+}
+p,
+ol,
+ol li {
+    font-family: "Times", "Times New Roman", serif;
+    margin: 0;
+    margin-top: 1em;
+}
+
+ol {
+    margin-top: 0;
+}
+
 p.citation {
     text-indent: 2em hanging;
+}
+
+div.container {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.container * {
+    width: 50%;
+}
+
+@media screen and (max-width: 1500px) {
+    div.container * {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    nav {
+        flex-direction: column;
+    }
+    nav a {
+        margin: 0.5em;
+    }
+    div.container * {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    div.container * {
+        width: 100%;
+    }
 }
