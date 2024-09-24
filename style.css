@@ -22,19 +22,20 @@ nav {
 nav a {
     display: block;
     margin: 1em;
-    text-decoration: none;
     color: #000;
     padding: 0.1em;
 }
-nav a:hover {
-    color: #fff;
-    background-color: #000;
+nav a:hover,
+details summary span:hover {
+    color: #000;
+    background-color: #fbee42;
 }
 a#nav-home {
     font-size: 200%;
     font-weight: bold;
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 a#nav-home img {
     display: inline-block;
@@ -79,12 +80,113 @@ div.container {
     align-items: center;
 }
 
-div.container * {
+div.container > * {
     width: 50%;
 }
 
+div.persona {
+    padding: 1em;
+    border: 0.5px solid #000;
+    border-radius: 1em;
+}
+div.persona-top,
+div.persona-bottom {
+    display: flex;
+    flex-direction: row;
+}
+.persona-photo {
+    display: block;
+    width: 5em;
+    height: 5em;
+    border-radius: 2.5em;
+    border: 0.1px solid #000;
+}
+.persona-bio {
+    flex: 1;
+    padding: 0.5em;
+}
+.persona-vital-info {
+    padding: 0.5em;
+    height: fit-content;
+}
+.persona-vital-info th {
+    text-align: right;
+}
+.persona-vital-info td {
+    text-align: left;
+    padding-left: 0.5em;
+}
+.persona-bio {
+    border: 0.5px solid #000;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+.persona-bio::before {
+    content: "Bio";
+    font-weight: bold;
+    color: black;
+    display: block;
+    margin-bottom: 0.5em;
+}
+.persona-bottom {
+    margin-top: 2em;
+    padding: 0;
+}
+.persona-bottom > ul {
+    display: block;
+    flex: 1;
+    margin: 1em;
+    padding: 0.5em;
+    border: 0.1px solid;
+    border-radius: 0.5em;
+    position: relative;
+    list-style-position: inside;
+}
+.persona-bottom > ul::before {
+    content: attr(title);
+    position: absolute;
+    bottom: calc(100% + 0.25em);
+    font-weight: bold;
+    color: black;
+    padding: 0.25em;
+    border-radius: 0.25em;
+}
+.persona-goals {
+    border-color: #e08fff !important;
+}
+.persona-goals::before {
+    background-color: #e08fff !important;
+}
+.persona-wants {
+    border-color: #00c2a8 !important;
+}
+.persona-wants::before {
+    background-color: #00c2a8 !important;
+}
+.persona-pain {
+    border-color: #fe7070 !important;
+}
+.persona-pain::before {
+    background-color: #fe7070 !important;
+}
+
+details {
+    margin-left: -1em;
+    margin-right: -1em;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    border: 0.2px solid #000;
+}
+
+details summary span {
+    margin-left: 0.5em;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 1500px) {
-    div.container * {
+    div.container > * {
         width: 75%;
     }
 }
@@ -96,13 +198,25 @@ div.container * {
     nav a {
         margin: 0.5em;
     }
-    div.container * {
+    div.container > * {
         width: 85%;
     }
 }
 
 @media screen and (max-width: 800px) {
-    div.container * {
+    div.container > * {
+        width: 100%;
+    }
+    .persona-top,
+    .persona-bottom {
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .persona-bottom {
+        margin-top: 1em;
+    }
+    .persona-bottom ul {
+        margin-top: 2em;
         width: 100%;
     }
 }
