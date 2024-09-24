@@ -65,6 +65,21 @@ ol li {
     margin-top: 1em;
 }
 
+details {
+    margin-left: -1em;
+    margin-right: -1em;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 2em;
+    border: 0.2px solid #000;
+}
+
+details summary span {
+    margin-left: 0.5em;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 ol {
     margin-top: 0;
 }
@@ -168,21 +183,6 @@ div.persona-bottom {
 }
 .persona-pain::before {
     background-color: #fe7070 !important;
-}
-
-details {
-    margin-left: -1em;
-    margin-right: -1em;
-    margin-top: 1em;
-    padding: 1em;
-    border-radius: 1em;
-    border: 0.2px solid #000;
-}
-
-details summary span {
-    margin-left: 0.5em;
-    cursor: pointer;
-    text-decoration: underline;
 }
 
 @media screen and (max-width: 1500px) {
