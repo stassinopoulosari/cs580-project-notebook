@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns:lucid="lucid"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1223 683.6"
+	 style="enable-background:new 0 0 1223 683.6;" xml:space="preserve">
+<style type="text/css"><![CDATA[
+    @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+	.st0{fill:#E08FFF;stroke:#282C33;stroke-width:4;}
+	.st1{font-family:'Fira Sans';}
+	.st2{font-size:22.5787px;}
+	.st3{fill:#FBEE42;stroke:#282C33;stroke-width:4;}
+	.st4{fill:#00C2A8;stroke:#282C33;stroke-width:4;}
+	.st5{fill:none;stroke:#3A414A;stroke-width:4;}
+	.st6{fill:#3A414A;stroke:#3A414A;stroke-width:5.000000e-02;}
+]]></style>
+<path class="st0" d="M980.2,118c-21.6,0-39.2-12.3-39.2-27.4c0-12.1,10.6-22.3,27.1-26.1c-0.9-35.6,64.3-42.5,90.4-28.8
+	c13.1-20.6,78.3-13.7,78.3,6.9c39.2-6.9,78.3,20.6,52.2,54.9c26.1,27.4,0,61.7-52.2,48c-13.1,17.8-65.2,17.8-78.3,0
+	C1032.4,159.1,980.2,152.3,980.2,118L980.2,118z"/>
+<text transform="matrix(1 0 0 1 1008.0892 99.8134)" class="st1 st2">Weather API</text>
+<path class="st0" d="M980.2,278c-21.6,0-39.2-12.3-39.2-27.4c0-12.1,10.6-22.3,27.1-26.1c-0.9-35.6,64.3-42.5,90.4-28.8
+	c13.1-20.6,78.3-13.7,78.3,6.9c39.2-6.9,78.3,20.6,52.2,54.9c26.1,27.4,0,61.7-52.2,48c-13.1,17.8-65.2,17.8-78.3,0
+	C1032.4,319.1,980.2,312.3,980.2,278L980.2,278z"/>
+<path class="st0" d="M980.2,438c-21.6,0-39.2-12.3-39.2-27.4c0-12.1,10.6-22.3,27.1-26.1c-0.9-35.6,64.3-42.5,90.4-28.8
+	c13.1-20.6,78.3-13.7,78.3,6.9c39.2-6.9,78.3,20.6,52.2,54.9c26.1,27.4,0,61.7-52.2,48c-13.1,17.8-65.2,17.8-78.3,0
+	C1032.4,479.1,980.2,472.3,980.2,438L980.2,438z"/>
+<text transform="matrix(1 0 0 1 980.7465 416.5341)" class="st1 st2">Public Transit API</text>
+<text transform="matrix(1 0 0 1 960.4716 257.3856)" class="st1 st2">Mapping &amp; Traffic API</text>
+<path class="st0" d="M981.2,614c-21.6,0-39.2-14.3-39.2-32c0-14.1,10.6-26.1,27.1-30.4c-0.9-41.6,64.3-49.6,90.4-33.6
+	c13.1-24,78.3-16,78.3,8c39.2-8,78.3,24,52.2,64c26.1,32,0,72-52.2,56c-13.1,20.8-65.2,20.8-78.3,0C1033.4,662,981.2,654,981.2,614z
+	"/>
+<text transform="matrix(1 0 0 1 1004.1718 571.5452)"><tspan x="0" y="0" class="st1 st2">Micomobility</tspan><tspan x="-38.7" y="27.1" class="st1 st2">(Lime/Biketown) API</tspan></text>
+<path class="st3" d="M522,508c0-3.3,2.7-6,6-6h288c3.3,0,6,2.7,6,6v108c0,3.3-2.7,6-6,6H528c-3.3,0-6-2.7-6-6V508z"/>
+<text transform="matrix(1 0 0 1 592.9862 567.5452)" class="st1 st2">Reward System</text>
+<path class="st4" d="M22,508c0-3.3,2.7-6,6-6h288c3.3,0,6,2.7,6,6v108c0,3.3-2.7,6-6,6H28c-3.3,0-6-2.7-6-6V508z"/>
+<text transform="matrix(1 0 0 1 109.9389 551.5452)"><tspan x="0" y="0" class="st1 st2">Live Activity</tspan><tspan x="-61.2" y="27.1" class="st1 st2">(Persistent Notification)</tspan></text>
+<path class="st3" d="M642.3,358c-19.5,0-35.2-16.1-35.2-36c0-15.9,9.5-29.3,24.3-34.2c-0.8-46.8,57.9-55.8,81.4-37.8
+	c11.7-27,70.5-18,70.5,9c35.2-9,70.5,27,47,72c23.5,36,0,81-47,63c-11.8,23.4-58.7,23.4-70.5,0C689.2,412,642.2,403,642.3,358
+	L642.3,358z"/>
+<text transform="matrix(1 0 0 1 661.6294 311.3017)"><tspan x="0" y="0" class="st1 st2">Off The Rails</tspan><tspan x="-19.3" y="27.1" class="st1 st2">Backend Service</tspan></text>
+<path class="st3" d="M342,268c0-3.3,2.7-6,6-6h148c3.3,0,6,2.7,6,6v108c0,3.3-2.7,6-6,6H348c-3.3,0-6-2.7-6-6V268z"/>
+<text transform="matrix(1 0 0 1 366.278 324.9129)" class="st1 st2">Mobile App</text>
+<path class="st0" d="M342,28c0-3.3,2.7-6,6-6h148c3.3,0,6,2.7,6,6v108c0,3.3-2.7,6-6,6H348c-3.3,0-6-2.7-6-6V28z"/>
+<text transform="matrix(1 0 0 1 392.3852 72.9155)"><tspan x="0" y="0" class="st1 st2">iOS or</tspan><tspan x="-9.3" y="27.1" class="st1 st2">Androi</tspan><tspan x="59" y="27.1" class="st1 st2">d</tspan></text>
+<path class="st4" d="M22,268c0-3.3,2.7-6,6-6h148c3.3,0,6,2.7,6,6v108c0,3.3-2.7,6-6,6H28c-3.3,0-6-2.7-6-6V268z"/>
+<path class="st5" d="M186,322h152"/>
+<path class="st6" d="M186,324h-2v-4h2V324z M340,324h-2v-4h2V324z"/>
+<path class="st5" d="M445.7,386v50c0,3.3,2.7,6,6,6H666c3.3,0,6,2.7,6,6v50"/>
+<path class="st6" d="M447.7,386h-4v-2h4L447.7,386z M674,500h-4v-2h4L674,500z"/>
+<path class="st5" d="M422,146v112"/>
+<path class="st6" d="M424,146.1h-4V144h4L424,146.1z M424,260h-4v-2h4L424,260z"/>
+<path class="st5" d="M405.1,386v50c0,3.3-2.7,6-6,6H178c-3.3,0-6,2.7-6,6v50"/>
+<path class="st6" d="M407,386h-3.9v-2h3.9L407,386z M174,500h-4v-2h4V500z"/>
+<path class="st5" d="M838.2,322.3h43.4c3.3,0,6-2.7,6-6c0,0,0,0,0,0V96.6c0-3.3,2.7-6,6-6H937"/>
+<path class="st6" d="M838.3,324.3h-2.8l1-2.6l0.4-1.3h1.4V324.3z M939,90.5l0,0.9l0.1,1.1h-2.2v-3.9h2.2L939,90.5z"/>
+<path class="st5" d="M838.2,322.3h43.4c3.3,0,6-2.7,6-6c0,0,0,0,0,0v-59.7c0-3.3,2.7-6,6-6H937"/>
+<path class="st6" d="M838.3,324.3h-2.8l1-2.6l0.4-1.3h1.4V324.3z M939,250.5l0,0.9l0.1,1.1h-2.2v-3.9h2.2L939,250.5z"/>
+<path class="st5" d="M937,410.7h-43.4c-3.3,0-6-2.7-6-6v-76.4c0-3.3-2.7-6-6-6h-43.4"/>
+<path class="st6" d="M939,410.5l0,0.9l0.1,1.3H937v-4h2.2L939,410.5z M838.3,324.3h-2.8l1-2.6l0.4-1.3h1.4V324.3z"/>
+<path class="st5" d="M938,582.2h-43.9c-3.3,0-6-2.7-6-6V328.3c0-3.3-2.7-6-6-6h-43.9"/>
+<path class="st6" d="M940,581.9l0,1.2l0.1,1h-2.2v-4h2.2L940,581.9z M838.3,324.3h-2.8l1-2.6l0.4-1.3h1.4V324.3z"/>
+<path class="st5" d="M506,322h97"/>
+<path class="st6" d="M506,324h-2v-4h2V324z M605,322l0,1.8l0,0.2H603v-4h2.2L605,322z"/>
+<text transform="matrix(1 0 0 1 71.6008 299.9356)"><tspan x="0" y="0" class="st1 st2">Home</tspan><tspan x="-5.1" y="27.1" class="st1 st2">Screen</tspan><tspan x="-5.9" y="54.2" class="st1 st2">Widget</tspan></text>
+</svg>

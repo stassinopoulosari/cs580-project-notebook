@@ -99,6 +99,21 @@ div.container > * {
     width: 50%;
 }
 
+div.container-sketches {
+    display: flex;
+    overflow-x: scroll;
+    width: 95%;
+}
+
+div.container-sketches > img {
+    display: block;
+    flex: 1;
+    margin-left: 1em;
+    margin-right: 1em;
+    align-self: flex-end;
+    height: 100%;
+}
+
 div.persona {
     padding: 1em;
     border: 0.5px solid #000;
