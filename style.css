@@ -117,7 +117,6 @@ div.container-sketches {
 
 div.container-sketches > img {
     display: block;
-    flex: 1;
     margin-left: 1em;
     margin-right: 1em;
     align-self: flex-end;
