@@ -59,10 +59,20 @@ p:first-child {
 }
 p,
 ol,
-ol li {
+ol li,
+ul li {
     font-family: "Times", "Times New Roman", serif;
     margin: 0;
     margin-top: 1em;
+}
+
+li b,
+li h4 {
+    font-family: "Fira Sans";
+}
+
+ul {
+    margin: 0;
 }
 
 details {
@@ -111,7 +121,7 @@ div.container-sketches > img {
     margin-left: 1em;
     margin-right: 1em;
     align-self: flex-end;
-    height: 100%;
+    height: 50vh;
 }
 
 div.persona {
