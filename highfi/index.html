@@ -1,0 +1,85 @@
+<!-- Copied template for all other pages -->
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>High Fidelity Prototype - Off the Rails</title>
+        <link rel="stylesheet" href="../style.css" />
+    </head>
+    <body>
+        <nav>
+            <a href=".." id="nav-home"
+                ><img src="../icon/off-the-rails-icon.png" /><span
+                    >Off&nbsp;the&nbsp;Rails</span
+                ></a
+            >
+            <a href="..">Proposal</a>
+            <a href="../lowfi">Low-Fidelity Prototype &amp; Test Plan</a>
+            <a href=".">High-Fidelity Prototype</a>
+            <a href="../alpha" disabled>Alpha System</a>
+            <a href="../beta" disabled>Beta System</a>
+            <a href="../presentation" disabled>Presentation</a>
+        </nav>
+        <!-- End Copied template for all other pages -->
+        <div class="container">
+            <h1>High-Fidelity Prototype</h1>
+            <h2>Prototype Implementation</h2>
+            <p>
+                We chose to use the web-based too Figma to design and create an
+                interactive high-fidelity prototype for our app. You may click
+                the button below to open our high-fidelity prototype to explore
+                on your own.
+            </p>
+            <script>
+                if (Date.now() > Date.parse("2025-09-01")) {
+                    document.write(
+                        "<p><b>Please note that this prototype was created in November 2024 and may not still be online.</b></p>",
+                    );
+                }
+            </script>
+            <div id="highfi-lightbox-teaser" style="">
+                <button id="highfi-lightbox-button" disabled>
+                    Javascript is required for this page to function properly
+                </button>
+            </div>
+            <h2>User Manual</h2>
+            <!-- TODO -->
+            <h2>User Population</h2>
+            <p>
+                We conducted our tests in class on Tuesday, November 12, 2024.
+                Our test population was our classmates, who do fit some of the
+                user personas we envisioned when conceiving the application.
+                <!-- TODO demographic information -->
+            </p>
+        </div>
+
+        <div id="highfi-lightbox" class="hidden">
+            <button id="highfi-lightbox-close">X</button>
+            <iframe
+                src="https://embed.figma.com/proto/YLjJGt8GghQfPEKUKr85kE/OffTheRails-UsabilityTesting?node-id=1-966&amp;node-type=canvas&amp;scaling=scale-down&amp;content-scaling=fixed&amp;page-id=0%3A1&amp;starting-point-node-id=1%3A966&amp;show-proto-sidebar=1&amp;embed-host=share"
+                allowfullscreen
+            ></iframe>
+        </div>
+    </body>
+    <script>
+        const $body = document.getElementsByTagName("body")[0],
+            $openButton = document.getElementById("highfi-lightbox-button"),
+            $closeButton = document.getElementById("highfi-lightbox-close"),
+            $lightbox = document.getElementById("highfi-lightbox");
+        $openButton.onclick = () => {
+            $closeButton.disabled = false;
+            $openButton.disabled = true;
+            $lightbox.classList.remove("hidden");
+            $body.classList.add("lightbox");
+        };
+        $closeButton.onclick = () => {
+            $closeButton.disabled = true;
+            $openButton.disabled = false;
+            $lightbox.classList.add("hidden");
+            $body.classList.remove("lightbox");
+        };
+        $openButton.innerText = "view our high-fidelity prototype";
+        $openButton.disabled = false;
+    </script>
+</html>
