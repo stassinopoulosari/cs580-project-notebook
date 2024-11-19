@@ -221,6 +221,18 @@ div.persona-bottom {
     margin-top: 16px;
 }
 
+.exhibits {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}
+.exhibit {
+    flex: 1;
+    align-items: center;
+}
+.exhibit img {
+    max-width: 100%;
+}
 #highfi-lightbox-teaser {
     margin-left: -20%;
     margin-right: -20%;

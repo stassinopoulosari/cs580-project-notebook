@@ -44,13 +44,104 @@
                 </button>
             </div>
             <h2>User Manual</h2>
-            <!-- The document is clear, task-focused, presenting instructions as
-            step-by-step procedures and all images, symbols, icons, codes or
-            relevant jargon are clearly defined or labeled. The organization is
-            logical, e.g., including a table of contents, such that instructions
-            are easy to locate. Tasks are grouped chronologically, by frequency
-            of use, or by functional category, as appropriate to the nature of
-            the document. -->
+            <p>
+                We have attached a video walkthrough of our prototype below. If
+                you would prefer,
+                <a id="open-userManual-button" href="#anchor-userManual"
+                    ><noscript>view</noscript>
+                    <script>
+                        document.write("expand");
+                    </script>
+                    our full User Manual</a
+                >
+                to read it in text format.
+            </p>
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube-nocookie.com/embed/scFS6iMR5P8?si=oC4gUJ6nvor7Kai3"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+            ></iframe>
+            <details id="anchor-userManual" open>
+                <summary>Full user manual <span>show/hide</span></summary>
+                <p>
+                    From the user’s phone home screen, the application can be
+                    launched with the application button (<i>a</i>).
+                    Alternatively, the user may utilize the “get moving” button
+                    from the home screen widget (<i>b</i>) to quickly launch the
+                    application.
+                </p>
+                <div class="exhibits">
+                    <div class="exhibit">
+                        <h4>Item <i>a</i>: Application Button</h4>
+                        <img
+                            src="../images/user-manual-a.jpg"
+                            alt="Application Icon"
+                        />
+                    </div>
+                    <div class="exhibit">
+                        <h4>Item <i>b</i>: Home Screen Widget</h4>
+                        <img
+                            src="../images/user-manual-b.jpg"
+                            alt="Home Screen Widget"
+                        />
+                    </div>
+                </div>
+                <p>
+                    Once the application has been launched, the user is
+                    introduced to the home screen of the application. From
+                    there, the user can initiate a new commute or review earned
+                    rewards. If the user uses the alternative widget launch, the
+                    welcome screen is bypassed and the user is moved to the
+                    departure selection screen.
+                </p>
+                <p>
+                    Once the application has been launched and the user has
+                    commenced a commute from either the main screen of the
+                    application or by way of the widget “get moving” button, the
+                    user is then able to select a location for departure.
+                </p>
+                <p>
+                    The default departure location is the user’s current
+                    location as determined by map software integration.
+                </p>
+                <p>
+                    One alternative is to select a designated “home” location
+                    which the user can set up in the options menu.
+                </p>
+                <p>
+                    Another alternative is to select another location using the
+                    map. Within this option, the user can also select and
+                    designate favorite departure locations.
+                </p>
+                <p>
+                    Once the user has selected a departure location, they are
+                    able to select a method of transportation. To complete the
+                    commute, the user may need to select multiple methods of
+                    transportation.
+                </p>
+                <p>
+                    Lastly, the user must select their desired location. Similar
+                    to departure location, there are multiple options to choose
+                    from. This would include home, various favorites or the
+                    option to select a location from the map.
+                </p>
+                <p>
+                    From there, the user starts the commute. Once the commute is
+                    in progress, the user manually toggles “next checkpoint”
+                    once each checkpoint has been completed.
+                </p>
+                <p>
+                    Once all checkpoints have been completed, the user has
+                    arrived at their desired destination and receives an award
+                    within the application which celebrates their achieved
+                    commute.
+                </p>
+            </details>
             <h2>Testing</h2>
             <h3>User Population</h3>
             <p>
@@ -64,14 +155,72 @@
                 <a href="..#anchor-persona1">Persona 1</a> and
                 <a href="..#anchor-persona2">Persona 2</a> from our proposal.
             </p>
-            <h3>Usability Goals</h3>
-            <!-- each usability goal is linked to a quantitative/qualitative measurement (where appropriate) -->
-            <h3>Usability Test Procedures &amp; Evaluation</h3>
-            <h4>Phase 1</h4>
             <p>
-                One or two evaluators observe test users interacting with the
-                application. Evaluators take notes and observe issues with key
-                usability features.
+                For our test session, our application was evaluated by five of
+                our classmates, who served as our usability experts. The experts
+                were presented with the high fidelity prototype and invited to
+                explore it and provide feedback. As defined in our initial
+                proposal, our experts were able to consider the broad range of
+                transportation methods available in the Portland metropolitan
+                area. The users had varying degrees of experience with the
+                particular methods of interest, including public transportation,
+                micro-mobility, walking, biking and other methods considered. We
+                ran as many small tests within our application as we were able
+                to afford, considering the time allotted and available for our
+                experts. Our application does not have several highly distinct
+                groups of users and rather focuses on general use for a wide
+                variety of overlapping user types. Our users are expected to
+                have similar needs with variability across priorities for their
+                commute. Our application enables users to then customize the
+                application to their needs so that they can find fun and
+                rewarding ways to enhance their commute and hopefully consider
+                highly sustainable methods of transport.
+            </p>
+            <h3>Usability Goals</h3>
+            <p>
+                The usability goals for the overall project were broadly defined
+                in the second deliverable. For the purposes of testing the high
+                fidelity prototype with our expert users, we focused
+                specifically on these key goals and benchmarks.
+            </p>
+            <p>These are the usability goals that were tested:</p>
+            <ul>
+                <li>Launching a Trip</li>
+                <ul>
+                    <li>Widget activation</li>
+                    <li>Trip initialization from home application screen</li>
+                </ul>
+                <li>Selecting departure and destination points.</li>
+                <ul>
+                    <li>Departure point selection</li>
+                    <ul>
+                        <li>Default and alternative options</li>
+                    </ul>
+                    <li>Destination point selection</li>
+                    <ul>
+                        <li>Default and alternative options</li>
+                    </ul>
+                </ul>
+                <li>Trip type & method selection</li>
+                <ul>
+                    <li>Selecting the desired method of transportation</li>
+                </ul>
+                <li>Canceling a trip</li>
+                <ul>
+                    <li>Ability to cancel trip</li>
+                </ul>
+                <li>Progressing trip to conclusion</li>
+                <ul>
+                    <li>Ability to mark of checkpoints</li>
+                    <li>Reward upon completion of all checkpoints</li>
+                </ul>
+            </ul>
+            <h3>Usability Evaluation (Plan &amp; Results)</h3>
+            <p>
+                We took notes and made observations in line with our usability
+                evaluation plan. We also provided users with a survey to
+                complete. We limited the length of the survey to minimize survey
+                fatigue and facilitate thoughtful responses.
             </p>
             <ol>
                 <li>
@@ -80,29 +229,70 @@
                 </li>
                 <ol type="a">
                     <li>Does the user navigate without difficulty?</li>
+                    <ul>
+                        <li>
+                            Yes, the users were able to navigate through the
+                            application without difficulty. The users benefited
+                            from the design which made navigation obvious and
+                            clear to the users.
+                        </li>
+                    </ul>
+                </ol>
+                <ol type="a">
                     <li>
                         Are there areas where additional direction or guidance
                         is needed?
                     </li>
+                    <ul>
+                        <li>
+                            There were some areas for improvement however most
+                            issues were related to features that are not yet
+                            available or functional. The users had to be advised
+                            that some features were not yet functional.
+                        </li>
+                    </ul>
                 </ol>
+
                 <li>
                     Is the terminology familiar and easily understood? Is the
                     terminology consistent throughout the user experience?
                 </li>
                 <ol type="a">
                     <li>
-                        There are common, non-novel terms. Does the user
-                        struggle to understand key words and phrases?
+                        The users were able to easily understand the user
+                        interface and navigate with limited prompting. The
+                        design was successful in creating an intuitive
+                        experience for the user which made the learning curve
+                        for usage very minimal. We aim to further improve this
+                        with guided walkthroughs and potentially tooltips.
                     </li>
                 </ol>
+
                 <li>
                     Is the user able to address all preferences when setting up
                     a trip?
                 </li>
                 <ol type="a">
                     <li>Start location</li>
+                    <ul>
+                        <li>
+                            All users were able to successfully commence a trip.
+                        </li>
+                    </ul>
                     <li>End location</li>
-                    <li>Canceling a trip</li>
+                    <ul>
+                        <li>
+                            All users were able to successfully navigate through
+                            the trip set-up and commence the commute.
+                        </li>
+                    </ul>
+                    <li>Conclude the trip</li>
+                    <ul>
+                        <li>
+                            All users were able to successfully conclude their
+                            trip through checkpoints and claim their reward.
+                        </li>
+                    </ul>
                 </ol>
                 <li>Have we organically prevented errors for the user?</li>
                 <ol type="a">
@@ -110,27 +300,57 @@
                         Do we observe the user getting tripped up or lost while
                         setting up a commute?
                     </li>
+                    <ul>
+                        <li>
+                            No users were lost when using the application though
+                            more interactivity was desired. Some users expressed
+                            concern over features that were not yet functional
+                            within the prototype.
+                        </li>
+                    </ul>
                 </ol>
                 <li>
                     Is the user expected to remember a bunch of information?
                 </li>
                 <ol type="a">
-                    <li>Not expected to observe</li>
+                    <li>
+                        Users were not observed having to memorize information.
+                        No users raised concerns related to recalling
+                        information when navigating through the application.
+                    </li>
+                    <li>
+                        80% of users strongly agreed that the application was
+                        obvious and easy to use with the remaining 20% agreeing.
+                    </li>
                 </ol>
                 <li>Is the application flexible and easy to use?</li>
                 <ol type="a">
-                    <li>Expected to be easy to navigate.</li>
-                    <li>survey</li>
+                    <li>
+                        Users reported ease of use and intuitive application
+                        navigation.
+                    </li>
+                    <li>
+                        40% of users agreed that the application was easy to
+                        navigate and use. The remaining 60% strongly agreed.
+                    </li>
                 </ol>
                 <li>Rank aesthetic and cognitive load</li>
                 <ol type="a">
-                    <li>survey</li>
+                    <li>
+                        20% of users found the aesthetic to be 4 out of 5 on a
+                        scale of poor to excellent.
+                    </li>
+                    <li>
+                        The remaining 80% found the aesthetic to be excellent.
+                    </li>
                 </ol>
                 <li>Are errors clear and precisely identify problems?</li>
                 <ol type="a">
                     <li>
-                        Does the user run into difficulties when setting up a
-                        commute?
+                        There were no immediate issues with errors and problem
+                        identification. We did observe some concerns about
+                        pending features which were not yet functional at the
+                        time of testing.
                     </li>
                 </ol>
                 <li>
@@ -138,37 +358,77 @@
                     intuitive?
                 </li>
                 <ol type="a">
+                    <li>Users were able to navigate without extra guidance.</li>
                     <li>
-                        Could we have a quick welcome screen for first time user
-                        explaining the experience?
+                        We intend to provide the users with both a walkthrough
+                        video guide and written documentation on how to initiate
+                        and use the application.
                     </li>
-                    <li>Walkthrough?</li>
                 </ol>
             </ol>
-            <h4>Phase 2</h4>
-            <!-- This criterion is linked to a Learning OutcomeUsability Evaluation
-            A detailed usability evaluation plan should enable independent evaluators to assess the design with respect to the stated goals for the project -->
-            <p>
-                In addition to soliciting verbal evaluation from our test
-                subjects, we also asked them to fill out a feedback form, of
-                which we have embedded a sample below:
-            </p>
+
+            <p>We have embedded a sample of our feedback form below:</p>
             <iframe
                 src="https://docs.google.com/forms/d/e/1FAIpQLSfOlsw5bNa9NGbf-XMhIh8R5CfutQxjXVXC7m3GS5iSIyqDiA/viewform"
             ></iframe>
 
             <h3>Results &amp; Analysis</h3>
-            <!-- Results and Analysis What did you observe during the tests? What
-            comments did users provide? Did any of the tests fail? If so, why?
-            This includes discussion of system usability on benchmark tasks as
-            assessed through quantitative measurements or heuristics 20 to >12.0
-            pts Above and beyond Quantitative summaries completion results for
-            measures and qualitative observations (as appropriate) are present
-            for all benchmark tasks. User quotes and appropriate images are used
-            to illustrate ideas. Similarities and differences across observed
-            users are analyzed. A prioritized and clearly well-defined list of
-            usability issues (rated high/medium/ low) is provided and the
-            analysis is fully justified by the observations. -->
+            <img
+                src="../images/analysis-1.png"
+                alt="Most testers rated Off the Rails as an obvious commuter app"
+            />
+            <p>
+                Users felt that the application was obvious in how it is
+                intended to help facilitate and plan a commute. 20% of users
+                agreed and 80% strongly agreed.
+            </p>
+            <img
+                src="../images/analysis-2.png"
+                alt="Most testers rated Off the Rails as an obvious sustainability app"
+            />
+            <p>
+                Users agreed (20%) and strongly agreed (80%) that the
+                application is a fun way to plan a commute and would inspire
+                them to use more sustainable methods of transportation. This was
+                a very important finding which supported the sustainability goal
+                which inspired this project.
+            </p>
+            <img
+                src="../images/analysis-3.png"
+                alt="Testers rated Off the Rails as easy to navigate and understand"
+            />
+            <p>
+                Users agreed (40%) and strongly agreed (60%) that the
+                application was easy to navigate. This was also supported while
+                observing our expert users interacting with the application.
+                Navigation was simple, obvious and direct.
+            </p>
+            <img
+                src="../images/analysis-4.png"
+                alt="Testers evaluated Achievements/Medals as the element which would encourage them most when planning their commute"
+            />
+            <p>
+                Users felt the rewards system was a compelling and persuasive
+                aspect of the application. This was ranked as the most
+                encouraging aspect of the application with all survey
+                participants considering this one of their top 3 elements. The
+                second and third most valued elements were ease of use and
+                improving commute time.
+            </p>
+            <img
+                src="../images/analysis-5.png"
+                alt="Most testers rated the aesthetic of Off the Rails highly"
+            />
+            <p>
+                Lastly, the aesthetic of the application was held in high
+                regard. 20% of users gave the aesthetic a 4 out of 5 rating. The
+                remaining 80% of users gave the aesthetic a perfect score.
+            </p>
+
+            <p>
+                Further analysis and assessment of the results is warranted and
+                will be incorporated into the final presentation.
+            </p>
         </div>
 
         <div id="highfi-lightbox" class="hidden">
@@ -183,6 +443,10 @@
         const $body = document.getElementsByTagName("body")[0],
             $openButton = document.getElementById("highfi-lightbox-button"),
             $closeButton = document.getElementById("highfi-lightbox-close"),
+            $openUserManualButton = document.getElementById(
+                "open-userManual-button",
+            ),
+            $userManual = document.getElementById("anchor-userManual"),
             $lightbox = document.getElementById("highfi-lightbox");
         $openButton.onclick = () => {
             $closeButton.disabled = false;
@@ -198,5 +462,10 @@
         };
         $openButton.innerText = "view our high-fidelity prototype";
         $openButton.disabled = false;
+        $openUserManualButton.onclick = (e) => {
+            e.preventDefault();
+            $userManual.setAttribute("open", true);
+        };
+        $userManual.removeAttribute("open");
     </script>
 </html>
