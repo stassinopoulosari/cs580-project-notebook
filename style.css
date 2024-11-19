@@ -215,6 +215,12 @@ div.persona-bottom {
     background-color: #fe7070 !important;
 }
 
+.container iframe {
+    min-height: 60vh;
+    border: none;
+    margin-top: 16px;
+}
+
 #highfi-lightbox-teaser {
     margin-left: -20%;
     margin-right: -20%;
