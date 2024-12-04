@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>High-Fidelity Prototype - Off the Rails</title>
+        <link rel="stylesheet" href="../style.css" />
+    </head>
+    <body>
+        <nav>
+            <a href=".." id="nav-home"
+                ><img src="../icon/off-the-rails-icon.png" /><span
+                    >Off&nbsp;the&nbsp;Rails</span
+                ></a
+            >
+            <a href="..">Proposal</a>
+            <a href="../lowfi">Low-Fidelity Prototype &amp; Test Plan</a>
+            <a href="../highfi">High-Fidelity Prototype</a>
+            <a href=".">Presentation &amp; Final Report</a>
+        </nav>
+        <div class="container">
+            <h1>Presentation &amp; Final Report</h1>
+            <h2>Presentation</h2>
+            <p>
+                We used Google Slides to conduct our in-class presentation. You
+                may click the button below to open our high-fidelity prototype
+                to explore on your own.
+            </p>
+            <script>
+                if (Date.now() > Date.parse("2025-09-01")) {
+                    document.write(
+                        "<p><b>Please note that this presentation was created in November 2024 and may not still be online.</b></p>",
+                    );
+                }
+            </script>
+            <div id="lightbox-teaser" style="">
+                <button
+                    id="lightbox-button"
+                    disabled
+                    title="View our presentation"
+                >
+                    Javascript is required for this page to function properly
+                </button>
+            </div>
+            <h2>Final Report</h2>
+            <p>
+                A PDF of our final report is available at the following link:
+                <a href="./report.pdf" target="_blank">View our final report</a
+                >.
+            </p>
+        </div>
+        <div id="lightbox" class="hidden">
+            <button id="lightbox-close">X</button>
+            <iframe
+                id="lightbox-embed"
+                src="https://docs.google.com/presentation/d/e/2PACX-1vRSdt6pZu0Ez9Avf8wro0kooGZhUHZTeGkan_5VINtPqasKRKQ3d2GQkpUXf6GkXnIqT1t0mxvYkfzu/embed"
+                allowfullscreen
+            ></iframe>
+        </div>
+    </body>
+
+    <script src="../lightbox.js"></script>
+</html>

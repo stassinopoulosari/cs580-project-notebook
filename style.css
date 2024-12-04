@@ -233,7 +233,7 @@ div.persona-bottom {
 .exhibit img {
     max-width: 100%;
 }
-#highfi-lightbox-teaser {
+#lightbox-teaser {
     margin-left: -20%;
     margin-right: -20%;
     margin-top: 16px;
@@ -244,7 +244,7 @@ div.persona-bottom {
     background-color: #505132;
 }
 
-#highfi-lightbox-button {
+#lightbox-button {
     padding: 1rem;
     font-size: 150%;
     font-weight: bold;
@@ -254,11 +254,11 @@ div.persona-bottom {
     font-family: "Fira Sans", sans-serif;
     text-align: center;
 }
-#highfi-lightbox-button:hover {
+#lightbox-button:hover {
     background-color: #ffeb00;
 }
 
-#highfi-lightbox {
+#lightbox {
     position: absolute;
     top: 0;
     right: 0;
@@ -270,19 +270,19 @@ div.persona-bottom {
     transition: opacity 1.1s ease-in-out;
 }
 
-#highfi-lightbox iframe {
+#lightbox iframe {
     background-color: rgb(80 81 50);
     width: 100%;
     height: 100%;
     border: none;
 }
 
-#highfi-lightbox.hidden {
+#lightbox.hidden {
     opacity: 0;
     pointer-events: none;
 }
 
-#highfi-lightbox-close {
+#lightbox-close {
     position: absolute;
     top: 1rem;
     left: 1rem;
@@ -296,7 +296,7 @@ div.persona-bottom {
     opacity: 0.8;
 }
 
-#highfi-lightbox-close:hover {
+#lightbox-close:hover {
     background-color: #ffeb00;
 }
 
@@ -316,7 +316,7 @@ div.persona-bottom {
     div.container > * {
         width: 85%;
     }
-    #highfi-lightbox {
+    #lightbox {
         padding: 0;
     }
 }
